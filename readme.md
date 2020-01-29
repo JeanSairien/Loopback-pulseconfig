@@ -45,6 +45,6 @@
 
 **pactl list modules**
 
-**pactl unload-module <ID>**
+**pactl unload-module ID**
 
 
