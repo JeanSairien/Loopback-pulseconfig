@@ -1,38 +1,38 @@
-#installer pactl et pavucontrol pour le module loopback de pusle audio 
+#installer pactl et pavucontrol pour le module loopback de pusle audio
 
-	_sudo apt install pactl_
-	_sudo apt install pavucontrol_
+	**sudo apt install pactl**
+	**sudo apt install pavucontrol**
 
 
 #activer le loopback:
 
-	_pactl load-module module-loopback_
+	**pactl load-module module-loopback**
 
 #lancer discord & butt
 
-**regler dans pavu control** 
-	
+**regler dans pavu control**
+
 	_voir screenshot_
 
 ##Lecture:
 
-**simultanous output** 
+**simultanous output**
 
 	_audio interne stéréo analogique_
 
 **loopback from audio interne**  
-	
+
 	_simultaneous output audio interne_
 
 ##Enregistrement:
 
-**WEBRTC voice recStream** 
+**WEBRTC voice recStream**
 
 	_audio interne stéreo analogique_
 
 
-**Loopback to simultaneous output to Audio interne Stéréo analogique** 
-	
+**Loopback to simultaneous output to Audio interne Stéréo analogique**
+
 	_Audio interne Stéréo analogique_
 
 
@@ -46,5 +46,3 @@
 **pactl list modules**
 
 **pactl unload-module ID**
-
-

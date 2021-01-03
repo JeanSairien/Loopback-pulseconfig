@@ -4,6 +4,6 @@
 
 pactl load-module module-loopback
 
-pact_ list modules
+pactl list modules
 
 pavucontrol
